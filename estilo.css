@@ -1,0 +1,66 @@
+
+p{
+    font-size: 20px;
+}
+
+.botao{
+    border: 2px solid black;
+    border-radius: 7px;
+    margin: 50px 250px 0 250px;
+    text-align: center;
+    
+}
+.interativo{
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center;
+    
+}
+.interativo>p{
+    color: black;
+    text-align: left;
+    display: block;
+    position: relative;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 25px;
+}
+.interativo>p>input{
+    position: absolute;
+    right: 10px;
+    
+
+}
+.descGanho{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+button{
+    padding: 20px 50px;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button1{
+    background-color: aliceblue;
+    color: black;
+    border: 1px solid rgb(160, 231, 236);
+}
+.button1:hover{
+    color: white;
+    background-color: rgb(26, 135, 143);
+    border: 1px solid blue;
+}
+
+.funcaoCalcu{
+    border: 2px solid black;
+    text-align: center;
+    padding: 15px;
+    margin: 10px 100px;
+}
