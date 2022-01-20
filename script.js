@@ -1,6 +1,4 @@
 document.getElementById('calc');
-
-
 function calc() {
 
 
